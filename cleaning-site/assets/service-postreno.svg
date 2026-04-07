@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <filter id="s" x="-40" y="-40" width="1280" height="880" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#1B0A16" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF2FB3"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="48" fill="#FFF3FA"/>
+  <circle cx="980" cy="220" r="190" fill="#FF2FB3" fill-opacity="0.12"/>
+  <circle cx="320" cy="620" r="220" fill="#FF79D6" fill-opacity="0.12"/>
+
+  <g filter="url(#s)">
+    <rect x="150" y="140" width="900" height="540" rx="44" fill="#FFFFFF" stroke="#FF2FB3" stroke-opacity="0.18" stroke-width="8"/>
+    <rect x="210" y="210" width="560" height="40" rx="20" fill="#1C0B16" fill-opacity="0.10"/>
+
+    <!-- construction dust lines -->
+    <path d="M230 290H760" stroke="#FF2FB3" stroke-opacity="0.22" stroke-width="10" stroke-linecap="round"/>
+    <path d="M230 330H700" stroke="#FF2FB3" stroke-opacity="0.18" stroke-width="10" stroke-linecap="round"/>
+    <path d="M230 370H660" stroke="#FF2FB3" stroke-opacity="0.14" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- vacuum -->
+    <rect x="838" y="334" width="160" height="240" rx="42" fill="url(#p)"/>
+    <rect x="866" y="370" width="104" height="22" rx="11" fill="#FFFFFF" fill-opacity="0.72"/>
+    <circle cx="918" cy="584" r="28" fill="#1C0B16" fill-opacity="0.9"/>
+    <circle cx="982" cy="584" r="24" fill="#1C0B16" fill-opacity="0.78"/>
+    <path d="M870 320C870 292 892 270 920 270H944C972 270 994 292 994 320V334H870V320Z" fill="#1C0B16"/>
+    <path d="M920 270C920 240 944 216 974 216H1020" stroke="#FF2FB3" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- sparkles -->
+  <g opacity="0.92">
+    <path d="M602 690l12 26 26 12-26 12-12 26-12-26-26-12 26-12 12-26z" fill="#FF2FB3"/>
+    <path d="M1040 660l10 22 22 10-22 10-10 22-10-22-22-10 22-10 10-22z" fill="#FF79D6"/>
+  </g>
+</svg>
+

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <filter id="s" x="-40" y="-40" width="1280" height="880" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#1B0A16" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="p" x1="160" y1="120" x2="1040" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF2FB3"/>
+      <stop offset="1" stop-color="#FFB3E8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="48" fill="#FFFFFF"/>
+  <path d="M0 520C260 420 420 720 650 640C900 552 980 340 1200 410V800H0V520Z" fill="#FFF3FA"/>
+  <circle cx="1020" cy="190" r="160" fill="#FF2FB3" fill-opacity="0.10"/>
+  <circle cx="220" cy="240" r="140" fill="#FF79D6" fill-opacity="0.12"/>
+
+  <g filter="url(#s)">
+    <rect x="150" y="140" width="900" height="540" rx="44" fill="#FFF3FA" stroke="#FF2FB3" stroke-opacity="0.18" stroke-width="8"/>
+    <rect x="210" y="210" width="560" height="40" rx="20" fill="#1C0B16" fill-opacity="0.10"/>
+    <rect x="210" y="270" width="510" height="24" rx="12" fill="#1C0B16" fill-opacity="0.08"/>
+    <rect x="210" y="310" width="470" height="24" rx="12" fill="#1C0B16" fill-opacity="0.07"/>
+    <rect x="210" y="350" width="430" height="24" rx="12" fill="#1C0B16" fill-opacity="0.06"/>
+
+    <!-- spray bottle -->
+    <path d="M846 274C846 252 864 234 886 234H928C950 234 968 252 968 274V288H846V274Z" fill="#1C0B16"/>
+    <rect x="858" y="288" width="98" height="220" rx="34" fill="url(#p)"/>
+    <rect x="874" y="318" width="66" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.75"/>
+    <rect x="880" y="512" width="54" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.65"/>
+    <path d="M928 216H990C1002 216 1012 226 1012 238V252H952V238C952 226 940 216 928 216Z" fill="#FF2FB3"/>
+    <rect x="960" y="250" width="64" height="22" rx="11" fill="#FF79D6"/>
+  </g>
+
+  <!-- sparkles -->
+  <g opacity="0.92">
+    <path d="M632 104l14 30 30 14-30 14-14 30-14-30-30-14 30-14 14-30z" fill="#FF2FB3"/>
+    <path d="M260 680l12 26 26 12-26 12-12 26-12-26-26-12 26-12 12-26z" fill="#FF79D6"/>
+  </g>
+</svg>
+
